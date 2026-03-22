@@ -1,0 +1,153 @@
+:root {
+--red: #BF4646;
+--beige:  #EDDCC6;
+--cream: #FFF4EA;
+--blue:#7EACB5;
+}
+
+body {background-color: var(--cream);}
+
+
+.Name {
+    display: flex;
+align-items: center;
+padding: 50px;
+gap: 80px;
+}
+
+.name h1{font-size: 50px;
+    font-family:"Noto Serif JP";
+text-align: center;
+flex: 1;}
+
+.name p{font-family:Gelasio;
+display: flex;
+flex-direction: column;
+align-items: center;}
+
+.Photo img{border-radius: 40%;
+width: 250px;}
+
+.Education {
+padding: 40px 60px;
+background-color: var(--cream);
+}
+
+.Education h2 {
+    color: var(--red);
+font-size: 1.8rem;
+margin-bottom: 24px;
+padding-bottom: 8px;
+border-bottom: 2px solid var(--red);
+}
+
+.education {
+    margin-bottom: 20px;
+padding-left: 16px;
+border-left: 3px solid var(--blue);
+}
+
+.year {font-size:0.75rem;
+    color:var(--blue)}
+
+.education h3 {font-size: 1.1rem;
+margin: 2px 0;
+}
+
+.marks {
+font-weight: bold;
+}
+
+.Achievements {padding: 40px 60px;
+background-color: var(--cream);}
+
+
+.Achievements h2 {font-size: 1.8rem;
+    color: var(--red);
+margin-bottom: 24px;
+padding-bottom: 8px;
+border-bottom: 2px solid var(--red;)
+}
+
+.achievements {
+margin-bottom: 24px;
+padding-left: 8px;
+border-left: 2px solid var(--blue);
+}
+
+.Ayear {font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+color: var(--blue);}
+
+.achievements ul{padding-left: 20px;}
+
+.achievements li{margin-bottom: 6px;}
+
+.Certifications {
+padding: 40px 60px;
+background-color: var(--cream);
+}
+
+.Certifications h2 {
+    color: var(--red);
+font-size: 1.8rem;
+margin-bottom: 24px;
+padding-bottom: 8px;
+border-bottom: 2px solid var(--red);
+}
+
+.Certifications ul {
+    padding-left: 20px;
+}
+
+.Certifications li {margin-bottom: 8px;}
+
+.Skills {padding: 40px 60px;
+background-color: var(--cream);}
+
+.Skills h2 
+{font-size: 1.8rem;
+    color: var(--red);
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--red);}
+
+.Skills ul {padding-left: 20px;}
+
+.Skills li{margin-bottom: 8px;}
+
+.row {display:flex;}
+
+.row section {width: 50%;}
+
+.navbar {display: flex;
+justify-content: center;
+gap: 40px;
+padding: 16px;
+position: sticky;
+top: 0;}
+
+.navbar a {text-decoration: none;
+font-size: 1rem;}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    background-color: var(--red);
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: var(--cream);
+}
+
+.navbar a:hover {
+    color: var(--beige);
+}
